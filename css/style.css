@@ -14,7 +14,7 @@ Em vez de trocar uma a uma, basta alterar somente a variável*/
 
 body {
     background: var(--preta);
-    font-family: 'Times New Roman', Times, serif;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     color: #ffffff;
 }
 
@@ -29,7 +29,7 @@ header .logo {
     color: var(--vermelho);
     font-family: 'Arial', Times;
     font-weight: 900;
-    font-size: 40px;
+    font-size: 50px;
     margin-left: 5px;
 }
 
@@ -45,32 +45,39 @@ header nav a:hover {
 
 /* FILME PRINCIPAL */
 .destaque .container {
-    margin-left: 30px;
+    margin-left: 60px;
     width: 70%;
 }
 
 .destaque {
-    font-size:20px;
-    /*background: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)100%), url('/img/destaque.jpg');*/
-    background: url('/img/destaque.jpg');
+    font-size:24px;
+    background: linear-gradient(to right, rgba(0,0,0,0.9),rgba(0,0,0,0.1)100%), url('/img/destaque5.jpg');
     background-size: cover;
-    height: 400px;
+    height: 600px;
     display: flex;
     flex-direction: column;
-    justify-content: center;
+    /*justify-content: center;*/
     align-items: flex-start;
+}
+
+.destaque .titulo {
+    font-size: 50px;
+    text-transform: uppercase;
+    margin-top: 15%;
+}
+
+.destaque .info {
+    font-size: 18px;
+    margin: 15px 0;
+}
+
+.destaque .info i {
+    color: var(--vermelho);
 }
 
 .destaque .descricao {
     margin-bottom: 40px;
     margin-top: 10px;
-}
-
-.destaque .titulo {
-    font-size: 40px;
-    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-    text-transform: uppercase;
-    margin-top: 15%;
 }
 
 .destaque .botao {
@@ -80,9 +87,11 @@ header nav a:hover {
     color: #ffffff;
     padding: 15px 50px;
     margin-right: 15px;
-    font-size: 12px;
+    font-size: 14px;
     cursor: pointer;
     transition: 0.3s ease;
+    width: 300px;
+    height: 50px;
 }
 
 .botao:hover {
@@ -100,11 +109,17 @@ header nav a:hover {
 .carrosel .titulo {
     margin: 10px 0;
     font-size: 24px;
-    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
 
 .filmes {
-    height: 100%;
-    width: 100%;
+    height: 50%;
+    width: 50%;
     display: block;
 }
+
+/* FOOTER */
+footer {
+    height: 300px;
+    background-color: #222222;
+}
+
