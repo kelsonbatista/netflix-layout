@@ -96,3 +96,15 @@ header nav a:hover {
 
 
 /* OUTROS FILMES */
+
+.carrosel .titulo {
+    margin: 10px 0;
+    font-size: 24px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.filmes {
+    height: 100%;
+    width: 100%;
+    display: block;
+}
