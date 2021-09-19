@@ -57,12 +57,36 @@ header nav a:hover {
     align-items: flex-start;
 }
 
-.destaque .container .descricao {
+.destaque .descricao {
     margin-bottom: 40px;
+    margin-top: 10px;
 }
 
-.destaque .container .titulo {
+.destaque .titulo {
     font-size: 40px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    text-transform: uppercase;
+    margin-top: 15%;
+}
+
+.destaque .botao {
+    text-transform: uppercase;
+    background-color: rgba(0,0,0,0.5);
+    border:none;
+    color: #ffffff;
+    padding: 15px 50px;
+    margin-right: 15px;
+    font-size: 12px;
+    cursor: pointer;
+    transition: 0.3s ease;
+}
+
+.botao:hover {
+    background-color: #ffffff;
+    color: #000000;
+}
+.botao i{
+    margin-right: 5px;
 }
 
 /* OUTROS FILMES */
