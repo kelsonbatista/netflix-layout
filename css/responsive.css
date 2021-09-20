@@ -4,6 +4,14 @@
         flex-direction: column;
     }
 
+    header .logo {
+        font-size: 40px;
+    }
+
+    .destaque {
+        justify-content: center;
+    }
+    
     .destaque .titulo {
         font-size: 30px;
     }
@@ -16,6 +24,16 @@
         margin-top: 5px;
         width: 280px;
         height: 50px;
+    }
+
+    .destaque .container {
+        margin-left: 15px;
+        width: 80%;
+    }
+
+    .destaque .info {
+        font-size: 14px;
+        margin: 10px 0;
     }
 }
 

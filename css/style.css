@@ -53,10 +53,11 @@ header nav a:hover {
     font-size:24px;
     background: linear-gradient(to right, rgba(0,0,0,0.9),rgba(0,0,0,0.1)100%), url('/img/destaque5.jpg');
     background-size: cover;
+    background-position-x: center;
     height: 600px;
     display: flex;
     flex-direction: column;
-    /*justify-content: center;*/
+    justify-content:flex-start;
     align-items: flex-start;
 }
 
